@@ -8,19 +8,6 @@ This project analyzes Olist, a Brazilian e-commerce marketplace, using SQL to ex
 
 ---
 
-##  Dataset Schema
-
-```
-customers          orders             order_items        order_payments
-─────────────      ──────────────     ───────────────    ──────────────────
-customer_id    ←── customer_id        order_id       ──→ order_id
-customer_         order_id        ──→ order_item_id      payment_sequential
-unique_id         order_status        product_id          payment_type
-customer_city     purchase_ts         seller_id           payment_installments
-customer_state    approved_at         price               payment_value
-                  delivered_date      freight_value
-                  estimated_date
-```
 
 
 ## Section 1 — Overview KPIs
