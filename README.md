@@ -13,7 +13,7 @@ This project analyzes **Olist**, a Brazilian e-commerce marketplace, using SQL t
 ## Business Questions
 
 | # | Business Question | 
-|---|---|---|
+|---|---|
 | 1 | What is the overall marketplace health? | 
 | 2 | How is revenue trending month over month? | 
 | 3 | Who are our customers and where are they? |
