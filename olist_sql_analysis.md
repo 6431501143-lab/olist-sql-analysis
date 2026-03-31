@@ -35,7 +35,7 @@ WHERE o.order_status = 'delivered';
 **Result:**
 
 
-<img width="1156" height="88" alt="image" src="https://github.com/user-attachments/assets/5f7a031b-dce9-4161-afe3-127cb83ba18c" />
+![1.1](images/1.1.png)
 
 The equal total_orders and total_customers indicates that almost all customers have only placed one order.
 
@@ -56,7 +56,7 @@ ORDER BY order_count DESC;
 **Result:**
 
 
-<img width="432" height="346" alt="image" src="https://github.com/user-attachments/assets/f753f85e-d854-4601-bc47-f424002d7e64" />
+![1.2](images/1.2.png)
 
 
 ---
@@ -82,8 +82,8 @@ ORDER BY month;
 
 **Result:**
 
-<img width="558" height="636" alt="image" src="https://github.com/user-attachments/assets/133b0dac-a0c2-402c-84c6-596185801b7f" />
-<img width="512" height="257" alt="image" src="https://github.com/user-attachments/assets/a1f3fab7-b688-40b8-90ab-bde44d1a98fc" />
+![2.1](images/2.1.png)
+![2.1](images/2.1.2.png)
 
 
 
@@ -113,7 +113,7 @@ ORDER BY dow_num;
 
 **Result:**
 
-<img width="387" height="320" alt="image" src="https://github.com/user-attachments/assets/fe83dab5-3558-4afa-bf64-c78cf2935954" />
+![2.2](images/2.2.png)
 
 
 This shows that there are more orders on weekdays than on weekends.
@@ -133,8 +133,8 @@ ORDER BY hour_of_day;
 
 **Result:**
 
-<img width="291" height="645" alt="image" src="https://github.com/user-attachments/assets/79322a64-e267-4843-98ab-0f9fee097952" />
-<img width="246" height="297" alt="image" src="https://github.com/user-attachments/assets/9d6eced8-f2e8-4c6b-a3f0-f6fbe874add7" />
+![2.3](images/2.3.png)
+![2.3](images/2.3.2.png)
 
 
 Orders start surging from 10 AM to 5 PM, which is the peak period, then gradually decrease. This is the best time to run a flash sale or send notifications.
@@ -169,7 +169,7 @@ LIMIT 10;
 
 **Result:**
 
-<img width="747" height="427" alt="image" src="https://github.com/user-attachments/assets/915a2e18-e11e-4a04-b60b-c68892e35cd7" />
+![3.1](images/3.1.png)
 
 The state of SP alone accounts for almost 42% of all orders. The combined total of the top three states (SP + RJ + MG) reaches 69%, indicating that the market is primarily concentrated in southeastern Brazil.
 
@@ -198,7 +198,7 @@ ORDER BY order_count;
 
 **Result:**
 
-<img width="532" height="386" alt="image" src="https://github.com/user-attachments/assets/e579413d-d2fb-4a5e-83a9-ac175dd61980" />
+![3.1](images/3.2.png)
 
 
 Over 96% of customers make only one purchase and then disappear. This is a sign that the business relies too heavily on acquiring new customers. If you can implement a loyalty program or email remarketing to bring back old customers, you can significantly increase your revenue. 
@@ -237,7 +237,7 @@ WHERE order_status = 'delivered'
 
 **Result:**
 
-<img width="960" height="100" alt="image" src="https://github.com/user-attachments/assets/fca39aff-ec48-446c-9d68-a5cc61507456" />
+![4.1](images/4.1.png)
 
 
 Fastest delivery: 0 days — Likely an item that can be received immediately.
@@ -272,7 +272,7 @@ LIMIT 10;
 
 **Result:**
 
-<img width="747" height="422" alt="image" src="https://github.com/user-attachments/assets/a7afba23-633a-406e-90e8-7ea5bc1c0e85" />
+![4.2](images/4.2.png)
 
 
 The states with the slowest delivery times are all in northeastern Brazil, such as AL, MA, and PI, which are far from the infrastructure. Notice that the average delivery days are also high, indicating that the main problem is distance, not process delays.
@@ -303,7 +303,7 @@ ORDER BY total_orders DESC;
 
 **Result:**
 
-<img width="736" height="235" alt="image" src="https://github.com/user-attachments/assets/13689c25-2aef-4a72-aa50-8915c7ad4d1b" />
+![5.1](images/5.1.png)
 
 
 ---
@@ -327,8 +327,8 @@ ORDER BY payment_installments;
 **Result:**
 
 
-<img width="607" height="642" alt="image" src="https://github.com/user-attachments/assets/c0e2f1b7-937a-42c0-b7cd-9d6c9364307c" />
-<img width="576" height="296" alt="image" src="https://github.com/user-attachments/assets/dcf6b742-e0f8-4103-b397-0a0266d4febe" />
+![5.2](images/5.2.png)
+![5.2.2](images/5.2.2.png)
 
 
 1 installment (50.5%) — Half of the customers pay in full, indicating they have purchasing power or the product is not very expensive.
@@ -362,7 +362,7 @@ LIMIT 10;
 
 **Result:**
 
-<img width="1065" height="428" alt="image" src="https://github.com/user-attachments/assets/0a707f13-8a66-4966-ba45-c47350089512" />
+![6.1](images/6.1.png)
 
 
 ---
@@ -396,8 +396,8 @@ ORDER BY month;
 
 **Result:**
 
-<img width="523" height="637" alt="image" src="https://github.com/user-attachments/assets/96066712-0749-4e51-be2c-8c554d7b2fc2" />
-<img width="510" height="262" alt="image" src="https://github.com/user-attachments/assets/637c9467-ece3-4a83-b8d7-b91f00e124b2" />
+![7.1](images/7.1.png)
+![7.1.2](images/7.1.2.png)
 
 
 It gives a clearer picture of the growth rate than just looking at monthly figures.
@@ -433,8 +433,8 @@ ORDER BY month;
 
 **Result:**
 
-<img width="572" height="632" alt="image" src="https://github.com/user-attachments/assets/447c5ed9-5b62-48dd-9570-cb4a45bb39d1" />
-<img width="507" height="261" alt="image" src="https://github.com/user-attachments/assets/4fbf7149-df9a-4a57-92b8-50378e98e6ca" />
+![7.2](images/7.2.png)
+![7.2.2](images/7.2.2.png)
 
 
 Nov 2017 +52% — Black Friday caused an unusually high surge in sales.
