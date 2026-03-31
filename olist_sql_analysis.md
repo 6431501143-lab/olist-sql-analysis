@@ -102,6 +102,7 @@ SELECT
         WHEN '5' THEN 'Friday'
         WHEN '6' THEN 'Saturday'
     END                                          AS day_of_week,
+    strftime('%w', order_purchase_timestamp)     AS dow_num,
     COUNT(*)                                     AS total_orders,
     ROUND(COUNT(*) * 100.0
           / (SELECT COUNT(*) FROM orders), 2)   AS pct
