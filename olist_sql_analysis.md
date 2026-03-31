@@ -442,6 +442,3 @@ Dec 2017 -26% — After Black Friday, sales returned to normal levels; this is n
 
 ---
 
-
-
-*Dataset source: [Olist Brazilian E-Commerce — Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)*
